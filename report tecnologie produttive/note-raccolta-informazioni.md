@@ -24,6 +24,8 @@ Le tecnologie individuate riguardano **tutta la cannula**, non solo il tratto bi
 
 - Ci si è concentrati sulla tecnologia del **dipping**, in contrapposizione all'**estrusione**,
   per sfruttare l'esperienza pregressa maturata negli anni.
+- Anche nel **contratto** è riportato che si vuole **prediligere il dipping** rispetto ad altre
+  tecnologie.
 - La scelta dipping vs estrusione è **ancora aperta**, non definitiva.
 - In parallelo, è stato richiesto anche un **prototipo per estrusione** di un tubo bilume in
   poliuretano tramite **fornitore esterno**, dato che l'estrusione richiede macchinari dedicati
@@ -53,7 +55,9 @@ Per le cannule monolume già realizzate in passato:
 - Si stira un **tubo in PTFE** sul mandrino, applicando una **temperatura di circa 400°C** e una
   **trazione di 5 kg**.
 - Il tubo in PTFE, ricoperto di poliuretano, viene **intestato (rifinito) in cima e in fondo** al
-  mandrino.
+  mandrino. È possibile intestare il tubo PTFE con il PU perché la **geometria dei mandrini** in
+  quei punti permette l'**aggrappaggio del PTFE**; in caso contrario il PTFE tenderebbe a
+  **ritirarsi** a causa dello **stiramento subito** (trazione di 5 kg).
 - Si riesce a sfilare il mandrino perché **il PTFE non si attacca all'acciaio** del mandrino.
   Il **poliuretano invece si aggrappa tenacemente all'acciaio**, rendendo l'estrazione diretta
   molto difficile, se non impossibile, senza l'interposizione del PTFE.
@@ -144,11 +148,20 @@ Per le cannule monolume già realizzate in passato:
 
 1. **Dipping del mandrino reinfusione da solo** → primo strato base.
 2. **Accoppiamento** del mandrino reinfusione (con il suo primo strato base) al mandrino
-   aspirazione.
+   aspirazione, tramite un **anello di PU** ottenuto tagliando una piccola porzione di **guaina
+   della 19 Fr** (la stessa guaina normalmente usata nel processo di **laminazione**), in modo da
+   tenere adesi i due mandrini.
 3. **Dipping di entrambi i mandrini insieme** → strato base della cannula finale.
 4. Risultato: il mandrino reinfusione ha un **doppio strato base** (spessore maggiore).
 5. Il **primo strato base del mandrino reinfusione**, nella zona tra i due mandrini, **funge da
    setto** della porzione bilume della cannula finale.
+
+**Effetto collaterale dell'anello di PU**: produce un **rigonfiamento** nel corpo della cannula,
+nel punto di accoppiamento. Tale rigonfiamento **impedisce l'uso del coil 19 Fr preformato**,
+perché le spire del coil (già formate) non riescono a superare il rigonfiamento facendole
+scorrere lungo il mandrino. **Soluzione adottata**: il coil è stato ottenuto partendo da una
+**piattella in acciaio**, avvolta **direttamente lungo il corpo della cannula** (anziché
+preformata), superando così il vincolo del rigonfiamento.
 
 > Punto aperto per sviluppi futuri: il fatto di aver dippato solo il mandrino reinfusione prima
 > dell'accoppiamento potrebbe essere rivisto — forse sarà necessario dippare anche il mandrino
@@ -172,6 +185,29 @@ Per le cannule monolume già realizzate in passato:
 - L'inserto viene **inglobato nel tubo PTFE insieme al mandrino aspirazione** — soluzione
   ritenuta accettabile.
 - **Stato**: in attesa dell'esito della nuova cannula.
+
+### Evoluzione del metodo di accoppiamento mandrini — verso il coil 19 Fr preformato
+
+- Per i **prossimi campioni** si vuole tornare a usare il **coil 19 Fr preformato** (anziché il
+  coil da piattella avvolta manualmente). Questo non è compatibile con l'**anello di PU**
+  usato finora per l'accoppiamento dei mandrini, a causa del rigonfiamento che impedisce il
+  passaggio delle spire già preformate.
+- **Per il campione attualmente in lavorazione**, adottato un approccio intermedio:
+  1. L'anello di PU è stato applicato sulla **parte terminale del mandrino reinfusione**, in
+     corrispondenza della **porta di reinfusione** della cannula (circa a metà cannula) — punto
+     dove il mandrino reinfusione termina. Questo punto è **distinto** dalla zona di divisione
+     dei due mandrini, che si trova più in **zona prossimale**, prima che i due lumi/tubi
+     diventino manicotti/raccordi.
+  2. È stata dippata inizialmente solo la **parte prossimale** (lato manicotti/raccordi),
+     fermandosi appena dopo la **zona di divisione dei due mandrini** (zona prossimale, vicino
+     ai connettori).
+  3. **Obiettivo**: la struttura in PU così ottenuta sulla parte prossimale dovrebbe **mantenere
+     i due mandrini in posizione accoppiata** anche dopo la successiva **rimozione dell'anello
+     di PU**.
+  4. Solo dopo la rimozione dell'anello si procederà a dippare la **parte distale** dei mandrini
+     (punta della cannula), presumibilmente con il coil 19 Fr preformato, senza più l'ostacolo
+     del rigonfiamento.
+- **Stato**: in attesa dell'esito.
 
 ## Collegamenti
 
