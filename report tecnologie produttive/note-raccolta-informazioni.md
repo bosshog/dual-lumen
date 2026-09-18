@@ -39,7 +39,8 @@ Per ottenere la cannula dual lumen per dipping:
    in qualche modo.
 2. **Immersioni ripetute** in soluzione di **poliuretano + THF** → strato base di poliuretano sui
    mandrini.
-3. Deposizione di un **coil in acciaio** sopra lo strato base, per la resistenza meccanica.
+3. Deposizione di **3 segmenti di coil** e di **3 basket** in acciaio sopra lo strato base, per
+   la resistenza meccanica.
 4. **Strato esterno** di poliuretano, per dipping o per laminazione.
 5. **Rimozione dei mandrini**.
 
@@ -53,14 +54,16 @@ cannule prodotte con questa tecnologia) è l'**estrazione dei mandrini** una vol
 Per le cannule monolume già realizzate in passato:
 
 - Si stira un **tubo in PTFE** sul mandrino, applicando una **temperatura di circa 400°C** e una
-  **trazione di 5 kg**.
-- Il tubo in PTFE, ricoperto di poliuretano, viene **intestato (rifinito) in cima e in fondo** al
-  mandrino. È possibile intestare il tubo PTFE con il PU perché la **geometria dei mandrini** in
-  quei punti permette l'**aggrappaggio del PTFE**; in caso contrario il PTFE tenderebbe a
-  **ritirarsi** a causa dello **stiramento subito** (trazione di 5 kg).
-- Si riesce a sfilare il mandrino perché **il PTFE non si attacca all'acciaio** del mandrino.
-  Il **poliuretano invece si aggrappa tenacemente all'acciaio**, rendendo l'estrazione diretta
-  molto difficile, se non impossibile, senza l'interposizione del PTFE.
+  **trazione di 5 kg**. Il PTFE resta in posizione grazie agli **aggrappaggi** presenti sul
+  mandrino: senza questi aggrappaggi, una volta rimosso il peso della trazione, il PTFE si
+  ritirerebbe.
+- Il mandrino con il PTFE così applicato attraversa le varie fasi del processo di
+  realizzazione della cannula (**dipping**, posizionamento segmenti **coil** e **basket**) e
+  viene infine **intestato** in cima e in fondo, operazione che permette il **distacco del
+  PTFE dal mandrino** e la successiva rimozione del tubo PTFE.
+- Si riesce a sfilare il mandrino perché **il PTFE non si attacca all'acciaio** del mandrino,
+  mentre il **poliuretano si aggrapperebbe tenacemente all'acciaio**, rendendo l'estrazione
+  diretta **impossibile** senza l'interposizione del PTFE.
 - **Passaggio finale**: estrazione del PTFE dall'interno del tubo in poliuretano — manovra
   abbastanza agevole. Si afferra il PTFE con una pinza e si **torce/tira** fino al completo
   distacco dal tubo in poliuretano ottenuto.
@@ -100,6 +103,11 @@ Per le cannule monolume già realizzate in passato:
     **opaca**.
   - **Mandrino nero**: superficie **molto più liscia**, che dovrebbe quindi evitare il problema
     dell'opacità. **Non è stato possibile rimuovere il mandrino se non dopo una settimana**.
+  - In entrambi i casi, l'estrazione è stata possibile solo realizzando lo strato esterno
+    tramite **dipping**, senza laminazione: quando è stata usata la **laminazione** per lo
+    strato esterno, **non è stato possibile estrarre la cannula**. L'impossibilità di usare il
+    processo di laminazione con questi mandrini è un **fattore aggiuntivo** che sconsiglia
+    l'adozione della teflonatura permanente.
   - Aspetto da valutare in caso si decidesse di proseguire i test sul coating permanente: il
     compromesso tra trasparenza (superficie liscia) e facilità di estrazione (superficie rugosa)
     emerso dal confronto tra i due mandrini campione.
