@@ -70,8 +70,8 @@ Per le cannule monolume già realizzate in passato:
 
 - Il **mandrino aspirazione** presenta una **cava** (concavità marcata) che alloggia il mandrino
   di reinfusione.
-- Il processo di **stiratura del tubo PTFE** (validato sui mandrini monolume) **non riesce ad
-  aderire nella parte concava** del mandrino di aspirazione.
+- Il processo di **stiratura del tubo PTFE** (validato sui mandrini monolume) **non riesce a far
+  aderire il PTFE nella parte concava** del mandrino di aspirazione.
 
 ## Tentativo 1 — Teflonatura permanente (fornitore esterno)
 
