@@ -147,9 +147,6 @@ Per le cannule monolume già realizzate in passato:
   usata per precisione e ripetibilità).
 - **Mandrino reinfusione**: PTFE aderito abbastanza agevolmente. Applicata una **trazione molto
   leggera**, che riduce notevolmente il ritiro del PTFE una volta raffreddato (nota positiva).
-  La quasi assenza di ritiro dopo l'intestatura consente inoltre di **evitare di dover prevedere
-  aggrappaggi sul mandrino** per compensare il ritiro (a differenza di quanto necessario con la
-  trazione di 5 kg usata sui mandrini monolume).
   **Contropartita**: con trazione così leggera il tubo PTFE mantiene delle **grinze** anche a
   contatto con il mandrino; queste grinze si ritrovano poi nel prototipo di cannula come **segni
   sulla superficie interna**.
@@ -157,6 +154,9 @@ Per le cannule monolume già realizzate in passato:
   concava. Lavorata manualmente (a caldo e a freddo), spingendola dentro la cava.
   **Esito positivo**: la membrana si è deformata a sufficienza per aderire anche nella zona
   concava.
+- **Su entrambi i mandrini**, la quasi assenza di ritiro del PTFE dopo l'intestatura (grazie alla
+  trazione molto leggera) consente di **evitare di dover prevedere aggrappaggi sul mandrino**
+  (a differenza di quanto necessario con la trazione di 5 kg usata sui mandrini monolume).
 
 ### Processo di dipping stratificato (formazione del setto)
 
@@ -243,8 +243,8 @@ preformata), superando così il vincolo del rigonfiamento.
 - **Confermata la scelta del dipping** per ottenere la porzione bilume della cannula, senza
   passare all'estrusione (vedi [Scelta tecnologica: dipping vs estrusione](#scelta-tecnologica-dipping-vs-estrusione)).
 - **Design dei mandrini da rivedere**, per migliorare l'accoppiamento tra mandrino aspirazione e
-  mandrino reinfusione e per tenere in considerazione la presenza del tubo in PTFE (causa della
-  sezione fuori specifica riscontrata nel Tentativo 4).
+  mandrino reinfusione e per tenere in considerazione la presenza del tubo in PTFE, che aumenta
+  il diametro dei mandrini.
 - **Deciso insieme al cliente**: si prosegue con il **tubo in PTFE stirato** come soluzione per
   l'estrazione dei mandrini; **sospesi, per il momento, i test sui mandrini con PTFE permanente**
   (teflonatura permanente, Tentativo 1).
