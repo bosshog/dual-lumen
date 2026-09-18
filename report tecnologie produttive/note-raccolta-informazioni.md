@@ -7,7 +7,8 @@
 
 - Progetto per la realizzazione di un prototipo di **cannula dual lumen per ECLS**.
 - La cannula non è bilume su tutta la lunghezza: comprende una porzione a **singolo lume** vicino
-  alla punta. Il **lume di reinfusione termina circa a metà cannula**. I due lumi confluiscono in
+  alla punta. Il **lume di reinfusione termina in corrispondenza della reinfusion port, a circa
+  6 cm dalla punta**. I due lumi confluiscono in
   **due raccordi separati**.
 
 ## Attività 1 — Reverse engineering (completata)
