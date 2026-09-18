@@ -145,6 +145,9 @@ Per le cannule monolume già realizzate in passato:
   usata per precisione e ripetibilità).
 - **Mandrino reinfusione**: PTFE aderito abbastanza agevolmente. Applicata una **trazione molto
   leggera**, che riduce notevolmente il ritiro del PTFE una volta raffreddato (nota positiva).
+  La quasi assenza di ritiro dopo l'intestatura consente inoltre di **evitare di dover prevedere
+  aggrappaggi sul mandrino** per compensare il ritiro (a differenza di quanto necessario con la
+  trazione di 5 kg usata sui mandrini monolume).
   **Contropartita**: con trazione così leggera il tubo PTFE mantiene delle **grinze** anche a
   contatto con il mandrino; queste grinze si ritrovano poi nel prototipo di cannula come **segni
   sulla superficie interna**.
