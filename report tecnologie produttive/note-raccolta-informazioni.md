@@ -126,8 +126,10 @@ Per le cannule monolume già realizzate in passato:
   permanentemente (superficie rugosa), realizzata una cannula dual lumen completa.
   **Esito negativo**: dopo la maturazione del PU, l'estrazione **non è stata comunque possibile**.
   Rimossi i mandrini tagliando PU e coil (non sciolto nel THF, per poter ispezionare i residui).
-  **Riscontro**: superficie interna della cannula **piena di residui di PTFE** — non accettabili
-  per questa cannula.
+  **Riscontro**: superficie interna della cannula **piena di residui di PTFE**. Oltre al PTFE
+  depositato con lo spray, trovati anche **pezzi del coating permanente** applicato dal fornitore
+  esterno (Tentativo 1) — ulteriore riprova della **non adeguatezza di quel trattamento**.
+  Residui non accettabili per questa cannula.
   - Punto aperto: il risultato positivo sul pin semplice non si è riprodotto sui mandrini dual
     lumen reali — da capire se dovuto alla rugosità pregressa, alla geometria complessa, o altro.
 
