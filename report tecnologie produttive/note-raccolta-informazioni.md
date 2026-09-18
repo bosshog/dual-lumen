@@ -44,7 +44,7 @@ Per ottenere la cannula dual lumen per dipping:
 
 ### Problema principale del dipping
 
-Il problema principale del dipping (non specifico alla dual lumen, ma generale a tutte le
+Il problema principale del dipping (non specifico alla cannula dual lumen, ma generale a tutte le
 cannule prodotte con questa tecnologia) è l'**estrazione dei mandrini** una volta evaporato il THF.
 
 ## Estrazione mandrini — soluzione validata su cannule monolume
