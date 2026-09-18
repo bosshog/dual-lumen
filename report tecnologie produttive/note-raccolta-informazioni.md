@@ -29,8 +29,6 @@ Le tecnologie individuate riguardano **tutta la cannula**, non solo il tratto bi
 - In parallelo, è stato richiesto anche un **prototipo per estrusione** di un tubo bilume in
   poliuretano tramite **fornitore esterno**, dato che l'estrusione richiede macchinari dedicati
   non disponibili internamente.
-- **Decisione presa** (a seguito del Tentativo 4): **confermato il dipping** per ottenere la
-  porzione bilume della cannula, senza passare all'estrusione.
 
 ### Processo di dipping — panoramica generale
 
@@ -66,7 +64,7 @@ Per le cannule monolume già realizzate in passato:
   abbastanza agevole. Si afferra il PTFE con una pinza e si **torce/tira** fino al completo
   distacco dal tubo in poliuretano ottenuto.
 
-## Geometria dei mandrini bilume — la sfida specifica
+## Geometria dei mandrini dual lumen — la sfida specifica
 
 - Il **mandrino aspirazione** presenta una **cava** (concavità marcata) che alloggia il mandrino
   di reinfusione.
