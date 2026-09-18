@@ -205,7 +205,7 @@ preformata), superando così il vincolo del rigonfiamento.
 - Per l'accoppiamento dei mandrini, adottato un approccio intermedio con un **tubo
   termoretraibile** al posto dell'anello di PU:
   1. Il tubo termoretraibile è stato applicato sulla **parte terminale del mandrino reinfusione**,
-     in corrispondenza della **porta di reinfusione** della cannula (circa a metà cannula) —
+     in corrispondenza della **porta di reinfusione** della cannula (circa 6 cm dalla punta) —
      punto dove il mandrino reinfusione termina. Questo punto è **distinto** dalla zona di
      divisione dei due mandrini, che si trova più in **zona prossimale**, prima che i due
      lumi/tubi diventino manicotti/raccordi.
