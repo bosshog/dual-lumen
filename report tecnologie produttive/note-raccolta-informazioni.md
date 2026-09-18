@@ -12,7 +12,7 @@
 
 ## Attività 1 — Reverse engineering (completata)
 
-- Analisi della cannula bilume competitor **Avalon Elite 19 Fr**
+- Analisi della cannula dual lumen competitor **Avalon Elite 19 Fr**
   (https://www.getinge.com/it/prodotti/catetere-avalon-elite).
 - Report già prodotto, si trova in `report reverse engineering/`.
 
@@ -26,14 +26,15 @@ Le tecnologie individuate riguardano **tutta la cannula**, non solo il tratto bi
   per sfruttare l'esperienza pregressa maturata negli anni.
 - Anche nel **contratto** è riportato che si vuole **prediligere il dipping** rispetto ad altre
   tecnologie.
-- La scelta dipping vs estrusione è **ancora aperta**, non definitiva.
 - In parallelo, è stato richiesto anche un **prototipo per estrusione** di un tubo bilume in
   poliuretano tramite **fornitore esterno**, dato che l'estrusione richiede macchinari dedicati
   non disponibili internamente.
+- **Decisione presa** (a seguito del Tentativo 4): **confermato il dipping** per ottenere la
+  porzione bilume della cannula, senza passare all'estrusione.
 
 ### Processo di dipping — panoramica generale
 
-Per ottenere la cannula bilume per dipping:
+Per ottenere la cannula dual lumen per dipping:
 
 1. Due **mandrini** (uno per il lume di aspirazione, uno per il lume di reinfusione), accoppiati
    in qualche modo.
@@ -93,11 +94,16 @@ Per le cannule monolume già realizzate in passato:
   **rugosità**, mentre la superficie dovrebbe essere **liscia** per facilitare il distacco del
   poliuretano dal mandrino.
 - Confronto: in passato il **cliente** aveva fornito due mandrini campione con PTFE permanente
-  (uno **verde**, uno **nero**), con superficie **molto più liscia** rispetto ai mandrini dual
-  lumen trattati dal fornitore esterno. Usati per realizzare due cannule monolume: entrambe si
-  sono staccate.
-  - ⚠️ **Da confermare**: il distacco sul mandrino nero è avvenuto con molta difficoltà; non è
-    certo che entrambe le cannule si siano staccate facilmente.
+  (uno **verde**, uno **nero**). Usati per realizzare due cannule monolume:
+  - **Mandrino verde**: presenta un certo grado di **rugosità superficiale**, percepibile al
+    tatto. **Estrazione agevole**. Poiché la superficie interna della cannula copia la superficie
+    del mandrino, la rugosità fa **perdere la trasparenza del poliuretano**: la cannula risulta
+    **opaca**.
+  - **Mandrino nero**: superficie **molto più liscia**, che dovrebbe quindi evitare il problema
+    dell'opacità. **Non è stato possibile rimuovere il mandrino se non dopo una settimana**.
+  - Aspetto da valutare in caso si decidesse di proseguire i test sul coating permanente: il
+    compromesso tra trasparenza (superficie liscia) e facilità di estrazione (superficie rugosa)
+    emerso dal confronto tra i due mandrini campione.
 
 ### Prima cannula dual lumen realizzata (con mandrini teflonati permanenti)
 
@@ -117,7 +123,7 @@ Per le cannule monolume già realizzate in passato:
   PTFE spray → dipping substrato → coil 19 Fr → dipping strato esterno.
   **Esito positivo**: il giorno dopo la spina si è sfilata agevolmente.
 - **Applicazione su mandrini reali**: PTFE spray applicato **sopra** i mandrini già teflonati
-  permanentemente (superficie rugosa), realizzata una cannula bilume completa.
+  permanentemente (superficie rugosa), realizzata una cannula dual lumen completa.
   **Esito negativo**: dopo la maturazione del PU, l'estrazione **non è stata comunque possibile**.
   Rimossi i mandrini tagliando PU e coil (non sciolto nel THF, per poter ispezionare i residui).
   **Riscontro**: superficie interna della cannula **piena di residui di PTFE** — non accettabili
@@ -139,6 +145,9 @@ Per le cannule monolume già realizzate in passato:
   usata per precisione e ripetibilità).
 - **Mandrino reinfusione**: PTFE aderito abbastanza agevolmente. Applicata una **trazione molto
   leggera**, che riduce notevolmente il ritiro del PTFE una volta raffreddato (nota positiva).
+  **Contropartita**: con trazione così leggera il tubo PTFE mantiene delle **grinze** anche a
+  contatto con il mandrino; queste grinze si ritrovano poi nel prototipo di cannula come **segni
+  sulla superficie interna**.
 - **Mandrino aspirazione**: il PTFE ha formato inizialmente una **membrana tesa** sulla parte
   concava. Lavorata manualmente (a caldo e a freddo), spingendola dentro la cava.
   **Esito positivo**: la membrana si è deformata a sufficienza per aderire anche nella zona
@@ -167,7 +176,7 @@ preformata), superando così il vincolo del rigonfiamento.
 > dell'accoppiamento potrebbe essere rivisto — forse sarà necessario dippare anche il mandrino
 > aspirazione prima di accoppiarlo.
 
-### Prima cannula bilume completa con questo processo
+### Prima cannula dual lumen completa con questo processo
 
 - **Estrazione dei mandrini riuscita** — problema critico di estrazione risolto.
 - **Analisi della cannula**: rilevata una **lacerazione del setto** tra i due mandrini, nel punto
@@ -177,37 +186,63 @@ preformata), superando così il vincolo del rigonfiamento.
   quella zona, riconducibile a un **difetto del mandrino aspirazione non riconosciuto in fase di
   design**.
 
-## Azione correttiva in corso
-
-- Nuova cannula dual lumen in fase di realizzazione.
-- Introdotto un **inserto** nella **zona di separazione dei due mandrini**, posizionato nella
-  **cava** che ospita il mandrino reinfusione.
-- L'inserto viene **inglobato nel tubo PTFE insieme al mandrino aspirazione** — soluzione
-  ritenuta accettabile.
-- **Stato**: in attesa dell'esito della nuova cannula.
-
-### Evoluzione del metodo di accoppiamento mandrini — verso il coil 19 Fr preformato
+## Tentativo 4 — Tubo termoretraibile + inserto, verso il coil 19 Fr preformato
 
 - Per i **prossimi campioni** si vuole tornare a usare il **coil 19 Fr preformato** (anziché il
   coil da piattella avvolta manualmente). Questo non è compatibile con l'**anello di PU**
-  usato finora per l'accoppiamento dei mandrini, a causa del rigonfiamento che impedisce il
-  passaggio delle spire già preformate.
-- **Per il campione attualmente in lavorazione**, adottato un approccio intermedio:
-  1. L'anello di PU è stato applicato sulla **parte terminale del mandrino reinfusione**, in
-     corrispondenza della **porta di reinfusione** della cannula (circa a metà cannula) — punto
-     dove il mandrino reinfusione termina. Questo punto è **distinto** dalla zona di divisione
-     dei due mandrini, che si trova più in **zona prossimale**, prima che i due lumi/tubi
-     diventino manicotti/raccordi.
+  usato nel Tentativo 3 per l'accoppiamento dei mandrini, a causa del rigonfiamento che impedisce
+  il passaggio delle spire già preformate.
+- A seguito della **lacerazione del setto** riscontrata sulla cannula del Tentativo 3, il difetto
+  è stato individuato alla **fine della cava** del **mandrino aspirazione** (nella zona di
+  separazione dei due mandrini): in quel punto era stato erroneamente creato uno **spazio
+  eccessivo**. Introdotto un **inserto** per **riempire** tale spazio in eccesso: correzione resa possibile dal
+  fatto che il tubo PTFE ricopre il mandrino insieme all'inserto. Anche questo aspetto verrà
+  corretto a monte con il nuovo design dei mandrini.
+- Per l'accoppiamento dei mandrini, adottato un approccio intermedio con un **tubo
+  termoretraibile** al posto dell'anello di PU:
+  1. Il tubo termoretraibile è stato applicato sulla **parte terminale del mandrino reinfusione**,
+     in corrispondenza della **porta di reinfusione** della cannula (circa a metà cannula) —
+     punto dove il mandrino reinfusione termina. Questo punto è **distinto** dalla zona di
+     divisione dei due mandrini, che si trova più in **zona prossimale**, prima che i due
+     lumi/tubi diventino manicotti/raccordi.
   2. È stata dippata inizialmente solo la **parte prossimale** (lato manicotti/raccordi),
      fermandosi appena dopo la **zona di divisione dei due mandrini** (zona prossimale, vicino
      ai connettori).
-  3. **Obiettivo**: la struttura in PU così ottenuta sulla parte prossimale dovrebbe **mantenere
-     i due mandrini in posizione accoppiata** anche dopo la successiva **rimozione dell'anello
-     di PU**.
-  4. Solo dopo la rimozione dell'anello si procederà a dippare la **parte distale** dei mandrini
-     (punta della cannula), presumibilmente con il coil 19 Fr preformato, senza più l'ostacolo
-     del rigonfiamento.
-- **Stato**: in attesa dell'esito.
+  3. **Obiettivo**: la struttura in PU così ottenuta sulla parte prossimale doveva **mantenere
+     i due mandrini in posizione accoppiata** anche dopo la successiva **rimozione del tubo
+     termoretraibile**.
+  4. Solo dopo la rimozione del termoretraibile si è proceduto a dippare la **parte distale** dei
+     mandrini (punta della cannula), con l'obiettivo di poter usare il coil 19 Fr preformato
+     senza più l'ostacolo del rigonfiamento.
+- **Reinfusion port**: realizzata su questo campione rimuovendo lo strato di PU in corrispondenza
+  della fine del mandrino reinfusione.
+
+### Esito
+
+- **Estrazione dei mandrini**: agevole. Il **PTFE ha aderito meglio** ai mandrini grazie a una
+  leggera ottimizzazione del processo di stiramento/riscaldamento del tubo PTFE — il processo
+  resta comunque **da ottimizzare ulteriormente**.
+- **Accoppiamento mandrini**: una volta rimosso il tubo termoretraibile, i due mandrini si sono
+  **leggermente disaccoppiati** nel punto dove finisce il mandrino di reinfusione, con un
+  conseguente **aumento del diametro esterno** in quel punto. Anche in questo caso l'aumento di
+  diametro ha **impedito l'uso del coil 19 Fr preformato**: è stato quindi necessario, ancora una
+  volta, ottenere il coil da una **piattella in acciaio avvolta direttamente lungo il corpo della
+  cannula**, anziché preformata.
+- **Setto**: il campione **non presenta fori nel setto** — **conforme**, nessuna comunicazione
+  tra i due lumi.
+- **Sezione della porzione dual lumen**: **fuori specifica**, perché il PTFE sul mandrino
+  aspirazione spinge il mandrino reinfusione verso l'esterno.
+
+## Decisioni e prossimi passi
+
+- **Confermata la scelta del dipping** per ottenere la porzione bilume della cannula, senza
+  passare all'estrusione (vedi [Scelta tecnologica: dipping vs estrusione](#scelta-tecnologica-dipping-vs-estrusione)).
+- **Design dei mandrini da rivedere**, per migliorare l'accoppiamento tra mandrino aspirazione e
+  mandrino reinfusione e per tenere in considerazione la presenza del tubo in PTFE (causa della
+  sezione fuori specifica riscontrata nel Tentativo 4).
+- **Deciso insieme al cliente**: si prosegue con il **tubo in PTFE stirato** come soluzione per
+  l'estrazione dei mandrini; **sospesi, per il momento, i test sui mandrini con PTFE permanente**
+  (teflonatura permanente, Tentativo 1).
 
 ## Collegamenti
 
